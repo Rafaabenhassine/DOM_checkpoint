@@ -45,9 +45,9 @@ for (let m of minus) {
 
 
 function total() {
-    let qte=Array.from(document.querySelectorAll(".qte"))
-    let price=Array.from(document.querySelectorAll(".price"))
-    let t=0
+    let qte=Array.from(document.querySelectorAll(".qte"));
+    let price=Array.from(document.querySelectorAll(".price"));
+    let t=0;
     for (let i in qte) {
         t=t+qte[i].innerHTML*price[i].innerHTML
     }

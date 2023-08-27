@@ -1,21 +1,29 @@
-.rafpets{ 
-    padding-left: 200px;
+.rafpets { 
+    text-align: center;
 } 
 
 /*rafpets image   */
 
-.card{
-    background-color: aquamarine;
+.card {
+    background-color: aquamarine; display: inline-flex ;justify-content: space-around;
 }
 
-.body{
-    background:#17923b no-repeat center top; background-size:cover;"
+.body {
+    background-size:cover;
 }
 
-/*element.style {
+.class {
+    color:silver;font-size: 50px;background-color:gold ;background-color: aquamarine;
+}
+
+/* display: inline-flex' should be listed after 'display:-webkit-inline-flex' */
+
+
+
+/* element.style {
 }
 #rt-main {
-    padding: 40px 0 0;
+    padding: 40px ;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -79,5 +87,5 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-*/
+} */
+
