@@ -4,7 +4,7 @@ var plus =Array.from(document.querySelectorAll(".fa-plus"))
 var minus =Array.from(document.querySelectorAll(".fa-minus"))      
 var cards =Array.from(document.querySelectorAll(".card"))
 
-
+// heart
 for(let fav of favs){                            
     fav.addEventListener("click",function(){
         if(fav.style.color!="red"){
@@ -16,14 +16,14 @@ for(let fav of favs){
     })
     
 }
-
+// trush
 for (let i in deletebtn) {                                 
     deletebtn[i].addEventListener("click",function(){     
         cards[i].remove()
     })
     
 }
-
+// plus
 for (let p of plus) {
     
     p.addEventListener("click",function(){
@@ -32,7 +32,7 @@ for (let p of plus) {
     })
     
 }
-
+// minus 
 for (let m of minus) {
     m.addEventListener("click",function(){
         if (m.previousElementSibling.innerHTML>0) {
@@ -43,7 +43,7 @@ for (let m of minus) {
     
 }
 
-
+// Total Price 
 function total() {
     let qte=Array.from(document.querySelectorAll(".qte"));
     let price=Array.from(document.querySelectorAll(".price"));
